@@ -5,6 +5,9 @@ use Illuminate\Support\ServiceProvider;
 
 return [
 
+    'binance_key'=>env('BINANCE_KEY',''),
+    'binance_secret'=>env('BINANCE_SECRET',''),
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
